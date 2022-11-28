@@ -17,7 +17,7 @@ const client = new AWS.DynamoDB.DocumentClient()
 export default async function listUsers() {
   return new Promise((resolve, reject) => {
     const params = {
-      TableName: 'layer0-poc-users',
+      TableName: 'edgio-poc-users',
       Select: 'ALL_ATTRIBUTES',
     }
 

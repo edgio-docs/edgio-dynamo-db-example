@@ -1,5 +1,5 @@
 import listUsers from './listUsers'
-import { Router } from '@layer0/core/router'
+import { Router } from '@edgio/core/router'
 
 export default new Router().get('/', ({ compute, send, setResponseHeader }) => {
   compute(async (req, res) => {
