@@ -12,10 +12,11 @@
     "dotenv": "^10.0.0"
   },
   "devDependencies": {
-    "@edgio/cli": "^5.0.4",
-    "@edgio/core": "^5.0.4",
-    "@edgio/devtools": "^5.0.4",
-    "@edgio/prefetch": "^5.0.4",
+    "@edgio/cli": "^6.0.5",
+    "@edgio/core": "^6.0.5",
+    "@edgio/devtools": "^6.0.5",
+    "@edgio/prefetch": "^6.0.5",
     "prettier": "^2.7.1"
-  }
+  },
+  "repository": "git@github.com:edgio-docs/edgio-dynamo-db-example.git"
 }
